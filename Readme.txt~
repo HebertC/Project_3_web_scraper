@@ -1,0 +1,20 @@
+Application Web - Scrapper - Web
+
+How to run my program :
+
+''' I'm running Ubuntu 14.03''
+
+1.- Unzip the file 
+2.- Go to terminal and search for the cnn directory and run this command 
+    'scrapy crawl cnn -o news.csv -t csv'
+    (this will generate the news.cvs file in the cnn directory)
+3.- I created a virtual enviroment named : Project3
+4.- I activate the virtual enviroment from command line source bin/activate
+5.- Inside the virtual enviroment I installed flask 
+    >$ pip install flask 
+6.- Open the file viewer.py  and edit the path to CVS file with the
+    headlines in variable :
+    CSV_FILE_PATH ='news.csv' (write the whole path to the file)
+7.- Run the aplication :  pyton viewer.py
+8.- Open the browser at http://127.0.0.1:5000/
+9.- the aplication should display the news headlines
